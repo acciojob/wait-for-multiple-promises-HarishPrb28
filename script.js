@@ -1,6 +1,6 @@
 //your JS code here. If required.
 // Get the table and add the loading row
-const table = document.querySelector('#myTable');
+const table = document.querySelector('.table');
 const loadingRow = table.insertRow();
 const loadingCell = loadingRow.insertCell();
 loadingCell.colSpan = 2;
